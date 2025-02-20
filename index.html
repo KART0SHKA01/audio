@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Автозапуск аудио</title>
+    <title>Запуск аудио</title>
 </head>
 <body>
-    <audio autoplay>
-        <source src="https://on.soundcloud.com/T1QuvyuyYfHJZ2Ym7" type="audio/mpeg">
+    <button onclick="document.getElementById('player').play()">▶️ Включить аудио</button>
+    <audio id="player">
+        <source src="https://files.catbox.moe/abcdef.mp3" type="audio/mpeg">
     </audio>
 </body>
 </html>
